@@ -1,85 +1,87 @@
 // Import React
 import React from "react";
+import Title from "./slides/Title";
+import Summary from "./slides/Summary";
+import Close from "./slides/Close";
+
+import Zoidberg from "./slides/intro/Zoidberg";
+import WhatIsTypescript from "./slides/intro/WhatIsTypescript";
+import TypescriptIntro from "./slides/intro/TypescriptIntro";
+import Chart1 from "./slides/intro/Chart1";
+import Chart2 from "./slides/intro/Chart2";
+import Chart3 from "./slides/intro/Chart3";
+import Chart4 from "./slides/intro/Chart4";
+import TS1 from "./slides/intro/TS1";
+import TS2 from "./slides/intro/TS2";
+import ReactSlide from "./slides/intro/React";
+
+import Components from "./slides/components";
+import JSX1 from "./slides/components/JSX1";
+import JSX2 from "./slides/components/JSX2";
+import JSX3 from "./slides/components/JSX3";
+import ClassDefinition from "./slides/components/ClassDefinition";
+import DomActions from "./slides/components/DomActions";
+
+import Actions from "./slides/actions";
+import ActionTypes from "./slides/actions/ActionTypes";
+import ReduxActions from "./slides/actions/ReduxActions";
+
+import Reducers from "./slides/reducers";
+import ReducerTypeBenefits from "./slides/reducers/ReducerTypeBenefits";
+import ReducerMethods from "./slides/reducers/ReducerMethods";
+import AllStore from "./slides/reducers/AllStore";
+import StateAuto1 from "./slides/reducers/StateAuto1";
+import StateAuto2 from "./slides/reducers/StateAuto2";
+
+
+import theme from "./theme";
 
 // Import Spectacle Core tags
 import {
-  BlockQuote,
-  Cite,
   Deck,
-  Heading,
-  ListItem,
-  List,
-  Quote,
   Slide,
-  Text
 } from "spectacle";
-
-// Import image preloader util
-import preloader from "spectacle/lib/utils/preloader";
-
-// Import theme
-import createTheme from "spectacle/lib/themes/default";
 
 // Require CSS
 require("normalize.css");
 require("spectacle/lib/themes/default/index.css");
 
-
-const images = {
-  city: require("../assets/city.jpg"),
-  kat: require("../assets/kat.png"),
-  logo: require("../assets/formidable-logo.svg"),
-  markdown: require("../assets/markdown.png")
-};
-
-preloader(images);
-
-const theme = createTheme({
-  primary: "white",
-  secondary: "#1F2022",
-  tertiary: "#03A9FC",
-  quartenary: "#CECECE"
-}, {
-  primary: "Montserrat",
-  secondary: "Helvetica"
-});
-
 export default class Presentation extends React.Component {
   render() {
     return (
-      <Deck transition={["zoom", "slide"]} transitionDuration={500} theme={theme}>
-        <Slide transition={["zoom"]} bgColor="primary">
-          <Heading size={1} fit caps lineHeight={1} textColor="secondary">
-            Spectacle Boilerplate
-          </Heading>
-          <Text margin="10px 0 0" textColor="tertiary" size={1} fit bold>
-            open the presentation/index.js file to get started
-          </Text>
-        </Slide>
-        <Slide transition={["fade"]} bgColor="tertiary">
-          <Heading size={6} textColor="primary" caps>Typography</Heading>
-          <Heading size={1} textColor="secondary">Heading 1</Heading>
-          <Heading size={2} textColor="secondary">Heading 2</Heading>
-          <Heading size={3} textColor="secondary">Heading 3</Heading>
-          <Heading size={4} textColor="secondary">Heading 4</Heading>
-          <Heading size={5} textColor="secondary">Heading 5</Heading>
-          <Text size={6} textColor="secondary">Standard text</Text>
-        </Slide>
-        <Slide transition={["fade"]} bgColor="primary" textColor="tertiary">
-          <Heading size={6} textColor="secondary" caps>Standard List</Heading>
-          <List>
-            <ListItem>Item 1</ListItem>
-            <ListItem>Item 2</ListItem>
-            <ListItem>Item 3</ListItem>
-            <ListItem>Item 4</ListItem>
-          </List>
-        </Slide>
-        <Slide transition={["fade"]} bgColor="secondary" textColor="primary">
-          <BlockQuote>
-            <Quote>Example Quote</Quote>
-            <Cite>Author</Cite>
-          </BlockQuote>
-        </Slide>
+      <Deck transition={["slide"]} transitionDuration={400} theme={theme} controls={false}>
+        <Slide><Title/></Slide>
+        <Zoidberg/>
+        <Slide><WhatIsTypescript/></Slide>
+        <Slide><Chart1/></Slide>
+        <Slide><Chart2/></Slide>
+        <Slide><Chart3/></Slide>
+        <Slide><Chart4/></Slide>
+        <TypescriptIntro/>
+        <Slide><TS1/></Slide>
+        <Slide><TS2/></Slide>
+        <Slide><ReactSlide/></Slide>
+
+        <Slide><Components/></Slide>
+        <Slide bgColor="#172b35"><JSX1/></Slide>
+        <Slide bgColor="#172b35"><JSX2/></Slide>
+        <Slide bgColor="#172b35"><JSX3/></Slide>
+        <ClassDefinition/>
+        <DomActions/>
+
+        <Slide><Actions/></Slide>
+        <ActionTypes/>
+        <ReduxActions/>
+
+        <Slide><Reducers/></Slide>
+        <Slide><ReducerTypeBenefits/></Slide>
+        <ReducerMethods/>
+        <AllStore/>
+        <Slide bgColor="#172b35"><StateAuto1/></Slide>
+        <Slide bgColor="#172b35"><StateAuto2/></Slide>
+
+        <Slide><Summary/></Slide>
+        <Slide><Close/></Slide>
       </Deck>
     );
   }
