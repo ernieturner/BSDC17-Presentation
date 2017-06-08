@@ -4,18 +4,15 @@ interface FluxAction<PayloadType>{
   payload: PayloadType | Error;
 }
 
-
-
 type ActionType = "GET_DATA_REQUEST" |
                   "GET_DATA_SUCCESS" |
                   "GET_DATA_FAILURE";
+                  
 interface FluxAction<PayloadType>{
   type: ActionType;
   error?: boolean;
   payload: PayloadType | Error;
 }
-
-
 
 type MyAction = FluxAction<{
   id: number;
@@ -23,9 +20,6 @@ type MyAction = FluxAction<{
     list: string[];
   };
 }>;
-
-
-
 
 function requestData(id: number): MyAction {
   return {
@@ -36,7 +30,3 @@ function requestData(id: number): MyAction {
     }
   };
 }
-
-
-
-

@@ -4,14 +4,10 @@ export interface MyReducerState {
   userID?: number;
 }
 
-
-
 const initialState: MyReducerState = {
   data: null,
   isRequesting: false
 };
-
-
 
 GET_DATA_SUCCESS(state: MyReducerState, action: MyAction): MyReducerState {
   return {

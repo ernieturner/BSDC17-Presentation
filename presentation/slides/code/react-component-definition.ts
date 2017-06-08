@@ -1,7 +1,6 @@
 class MyComponent
   extends React.Component<Props, State>
 
-
 interface MyComponentProps {
   foo: string;
   bar: number;
@@ -12,7 +11,6 @@ interface MyComponentProps {
     config2: string;
   };
 }
-
 
 onClick(){
   this.props.callback();

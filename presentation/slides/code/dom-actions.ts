@@ -4,8 +4,6 @@ change(event: React.KeyboardEvent<HTMLInputElement>){
   });
 }
 
-
-
 this.setState({
   newName: event.currentTarget.value
 });

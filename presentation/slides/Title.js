@@ -11,17 +11,14 @@ export default class extends React.Component {
   render() {
     return (
       <div>
-        <Typeface font="Russo One">
-          <Text textSize="72px">Static Typing for React?</Text>
+        <Typeface font="'proxima-nova',sans-serif">
+          <Heading size={5} align="left">Static Typing for React?</Heading>
           <br/>
           <br/>
-          <Text textSize="72px">Why Not Typescript?</Text>
-          <br/>
-          <br/>
+          <Text textSize="40px" align='left'>Why Not Typescript?</Text>
         </Typeface>
-        <Heading size={6} lineHeight={1.5} textColor="secondary">Ernie Turner</Heading>
-        <Heading size={6} textColor="secondary">@erniewturner</Heading>
-        <Heading size={6} textColor="secondary">@ironcorelabs</Heading>
+        <Text textSize="30px" textColor="secondary" align="right">@erniewturner</Text>
+        <Text textSize="30px" textColor="secondary" align="right">@ironcorelabs</Text>
       </div>
     );
   }
