@@ -1,6 +1,5 @@
 import React from "react";
 
-// Import Spectacle Core tags
 import {
   Heading
 } from "spectacle";
@@ -14,8 +13,9 @@ export default class extends React.Component {
         <br/>
         <br/>
         <Heading size={5} lineHeight={1.5} textColor="secondary">Ernie Turner</Heading>
-        <Heading size={5} textColor="secondary">@erniewturner</Heading>
-        <Heading size={5} textColor="secondary">github.com/ernieturner</Heading>
+        <br/>
+        <Heading size={5} textColor="secondary"><i className="fa fa-twitter"/> erniewturner</Heading>
+        <Heading size={5} textColor="secondary"><i className="fa fa-github"/> ernieturner</Heading>
       </div>
     );
   }

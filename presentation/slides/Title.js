@@ -19,9 +19,6 @@ export default class extends React.Component {
           <br/>
           <br/>
         </Typeface>
-        <Heading size={6} lineHeight={1.5} textColor="secondary">Ernie Turner</Heading>
-        <Heading size={6} textColor="secondary">@erniewturner</Heading>
-        <Heading size={6} textColor="secondary">@ironcorelabs</Heading>
       </div>
     );
   }

@@ -17,6 +17,12 @@ export default class extends React.Component {
             <li style={{textAlign: "center"}}>🏇 React + TypeScript makes development crazy fast 🏇</li>
           </Appear>
           <Appear>
+            <li style={{textAlign: "center"}}>🕷  Find and fix bugs earlier 🕷</li>
+          </Appear>
+          <Appear>
+            <li style={{textAlign: "center"}}>🎓  Help new developers get up to speed faster 🎓</li>
+          </Appear>
+          <Appear>
             <li style={{textAlign: "center"}}>🆓 You can get some benefits without adding types 🆓</li>
           </Appear>
           <Appear>
