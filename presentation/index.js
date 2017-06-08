@@ -5,6 +5,7 @@ import Summary from "./slides/Summary";
 import Close from "./slides/Close";
 
 import Zoidberg from "./slides/intro/Zoidberg";
+import Disclaimer from "./slides/intro/Disclaimer";
 import WhatIsTypescript from "./slides/intro/WhatIsTypescript";
 import TypescriptIntro from "./slides/intro/TypescriptIntro";
 import Chart1 from "./slides/intro/Chart1";
@@ -52,6 +53,7 @@ export default class Presentation extends React.Component {
       <Deck transition={["slide"]} transitionDuration={400} theme={theme} controls={false}>
         <Slide><Title/></Slide>
         <Zoidberg/>
+        <Slide><Disclaimer/></Slide>
         <Slide><WhatIsTypescript/></Slide>
         <Slide><Chart1/></Slide>
         <Slide><Chart2/></Slide>
