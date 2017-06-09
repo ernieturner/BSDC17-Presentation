@@ -3,7 +3,7 @@ import preloader from "spectacle/lib/utils/preloader";
 import ImageSlide from 'spectacle-image-slide';
 
 const images = {
-  typegroup1: require("../../../assets/img/typegroups1.png")
+  typegroup1: require("../../../assets/img/typegroups1.2.png")
 };
 
 preloader(images);

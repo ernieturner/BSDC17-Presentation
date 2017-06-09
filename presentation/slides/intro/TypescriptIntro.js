@@ -16,6 +16,7 @@ export default class extends React.Component {
                    textSize={"42px"}
                    padding={0}
                    lang="typescript"
+                   theme="light"
                    code={codeSample}
                    ranges={[
                        {loc: [0, 3]},

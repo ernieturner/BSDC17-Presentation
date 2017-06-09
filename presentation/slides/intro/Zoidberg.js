@@ -17,8 +17,6 @@ export default class extends React.Component {
     return (
       <div style={{textAlign: "center"}}>
         <Image src={images.zoidberg} />
-        <br/>
-        <Image src={images.ts} />
       </div>
     );
   }

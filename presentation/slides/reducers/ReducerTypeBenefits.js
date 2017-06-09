@@ -14,13 +14,13 @@ export default class extends React.Component {
         <Heading size={4}>Benefits</Heading>
         <ul className="fa-ul">
           <Appear>
-            <li><i className="fa-li fa fa-check-square-o green"/>Guarantees about action payload</li>
+            <li><i className="fa-li fa fa-check-square-o red"/>Guarantees about action payload</li>
           </Appear>
           <Appear>
-            <li><i className="fa-li fa fa-check-square-o green"/>Autocompletion for store consumers</li>
+            <li><i className="fa-li fa fa-check-square-o red"/>Autocompletion for store consumers</li>
           </Appear>
           <Appear>
-            <li><i className="fa-li fa fa-check-square-o green"/>Creating store shape requires undestanding all scenarios</li>
+            <li><i className="fa-li fa fa-check-square-o red"/>Creating store shape requires undestanding all scenarios</li>
           </Appear>
         </ul>
       </div>
