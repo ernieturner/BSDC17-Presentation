@@ -19,10 +19,11 @@ export default class extends React.Component {
                    code={codeSample}
                    ranges={[
                        {loc: [0, 0], title: "Typing Action Creators"},
-                       {loc: [0, 5]},
-                       {loc: [8, 16]},
-                       {loc: [18, 25]},
-                       {loc: [28, 48]}
+                       {loc: [0, 4]},
+                       {loc: [5, 14]},
+                       {loc: [15, 20]},
+                       {loc: [22, 23]},
+                       {loc: [25, 34]}
                    ]}/>
     );
   }

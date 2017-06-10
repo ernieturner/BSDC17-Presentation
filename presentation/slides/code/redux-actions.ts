@@ -1,4 +1,5 @@
 import {requestData} from 'actions/MyActions';
+...
 export default connect(
   null,
   (dispatch: any) => {
@@ -6,10 +7,12 @@ export default connect(
   }
 )(MyComponent);
 
-interface MyComponentProps {
-    requestData: (id: number) => MyAction;
-}
 
 interface MyComponentProps {
-    requestData: typeof requestData
+    requestData: (id: number) => MyAction1;
+}
+
+
+interface MyComponentProps {
+    requestData: typeof requestData;
 }
