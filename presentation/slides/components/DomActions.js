@@ -20,7 +20,7 @@ export default class extends React.Component {
                    ranges={[
                        {loc: [0, 5]},
                        {loc: [2, 3], note: <span style={{color: "#ff5c57"}}>Property 'value' does not exist on type 'EventTarget'.</span>},
-                       {loc: [8, 12], note: <span>👍</span>},
+                       {loc: [6, 9], note: <span>👍</span>},
                    ]}/>
     );
   }
