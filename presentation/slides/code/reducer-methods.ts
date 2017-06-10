@@ -10,7 +10,6 @@ const initialState: MyReducerState = {
 };
 
 GET_DATA_SUCCESS(state: MyReducerState, action: MyAction1): MyReducerState {
->>>>>>> master
   return {
     data: action.payload.data.list,
     isRequesting: false,
