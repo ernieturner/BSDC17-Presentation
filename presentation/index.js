@@ -42,6 +42,7 @@ import SelfPublished from "./slides/definitions/SelfPublished";
 import DefinitelyTyped from "./slides/definitions/DefinitelyTyped";
 import Package from "./slides/definitions/Package";
 import DefinitionExample from "./slides/definitions/DefinitionExample";
+import CompilerFlags from "./slides/definitions/CompilerFlags";
 
 import theme from "./theme";
 
@@ -99,6 +100,7 @@ export default class Presentation extends React.Component {
         <Slide><DefinitelyTyped/></Slide>
         <Package/>
         <Slide><DefinitionExample/></Slide>
+        <Slide><CompilerFlags/></Slide>
 
         <Slide><Summary/></Slide>
         <Slide><Tiger/></Slide>

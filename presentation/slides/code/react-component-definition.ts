@@ -12,6 +12,17 @@ interface MyComponentProps {
   };
 }
 
+interface MyComponentState {
+  loading: boolean;
+  age: number;
+}
+
 onClick(){
   this.props.callback();
+}
+
+onAgeChange(changeEvent){
+  this.setState({
+    name: changeEvent.currentTarget.value
+  });
 }

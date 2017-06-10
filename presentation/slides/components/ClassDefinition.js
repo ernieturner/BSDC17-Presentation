@@ -24,7 +24,9 @@ export default class extends React.Component {
                        {loc: [6, 7], note: <span>Arrays</span>},
                        {loc: [7, 8], note: <span>Functions</span>},
                        {loc: [8, 12], note: <span>Sub-objects</span>},
-                       {loc: [14, 20], note: <span style={{color: "#ff5c57"}}>Supplied parameters do not match any signature of call target</span>}
+                       {loc: [14, 18]},
+                       {loc: [19, 22], note: <span style={{color: "#ff5c57"}}>Supplied parameters do not match any signature of call target</span>},
+                       {loc: [23, 29], note: <span style={{color: "#ff5c57"}}>Type 'string' is not assignable to type 'number'.</span>}
                    ]}/>
     );
   }
