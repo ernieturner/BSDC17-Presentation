@@ -1,21 +1,22 @@
 import React from "react";
 
 import {
-  Heading
+  Heading,
+  Text
 } from "spectacle";
 
 export default class extends React.Component {
   render() {
     return (
       <div>
-        <Heading size={2} caps textColor="secondary">Thank You!</Heading>
+        <Heading size={4} textTransform="uppercase">Thank You</Heading>
         <br/>
         <br/>
         <br/>
-        <Heading size={5} lineHeight={1.5} textColor="secondary">Ernie Turner</Heading>
         <br/>
-        <Heading size={5} textColor="secondary"><i className="fa fa-twitter"/> erniewturner</Heading>
-        <Heading size={5} textColor="secondary"><i className="fa fa-github"/> ernieturner</Heading>
+        <Text textSize="45px" textColor="secondary" textAlign="right">Ernie Turner</Text>
+        <Text textSize="45px" textColor="secondary" textAlign="right"><i className="fa fa-twitter"/> erniewturner</Text>
+        <Text textSize="45px" textColor="secondary" textAlign="right"><i className="fa fa-github"/> ernieturner</Text>
       </div>
     );
   }

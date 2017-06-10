@@ -14,10 +14,10 @@ export default class extends React.Component {
         <Heading size={4}>Disclaimer</Heading>
         <ul className="fa-ul">
           <Appear>
-            <li><i className="fa-li fa fa-check-square-o green"/>Not a TypeScript-Flow comparison</li>
+            <li><i className="fa-li fa fa-check-square-o red"/>Not a TypeScript-Flow comparison</li>
           </Appear>
           <Appear>
-            <li><i className="fa-li fa fa-check-square-o green"/>Static Typing for React? Yes, Please!</li>
+            <li><i className="fa-li fa fa-check-square-o red"/>Static Typing for React? Yes, Please!</li>
           </Appear>
         </ul>
       </div>

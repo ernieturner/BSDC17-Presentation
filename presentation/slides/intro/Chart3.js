@@ -3,7 +3,7 @@ import preloader from "spectacle/lib/utils/preloader";
 import ImageSlide from 'spectacle-image-slide';
 
 const images = {
-  chart3: require("../../../assets/img/chart3.png")
+  chart3: require("../../../assets/img/chart3.2.png")
 };
 
 preloader(images);

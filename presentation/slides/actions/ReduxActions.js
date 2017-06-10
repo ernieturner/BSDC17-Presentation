@@ -21,7 +21,7 @@ export default class extends React.Component {
                        {loc: [0, 0], title: "Binding Redux Action Creators"},
                        {loc: [0, 8]},
                        {loc: [10, 13], note: <span>👎 Requires duplication of function signature</span>},
-                       {loc: [14, 17], note: <span>👍 No changes needed when action creator changes</span>}
+                       {loc: [15, 18], note: <span>👍 No changes needed when action creator changes</span>}
                    ]}/>
     );
   }

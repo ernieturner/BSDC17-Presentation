@@ -7,3 +7,6 @@ export interface AllStore {
 export default combineReducers({
   stateSlice: MyReducer
 });
+
+
+

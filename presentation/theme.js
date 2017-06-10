@@ -2,11 +2,12 @@ import createTheme from "spectacle/lib/themes/default";
 
 const theme = createTheme({
   primary: "white",
-  secondary: "#7FC1CA",
-  tertiary: "#DADA93",
-  quartenary: "#CECECE"
+  secondary: "#EE2E2A",
+  tertiary: "#506774",
+  quartenary: "#BEBEBD",
+  base: "#2A2A2A"
 }, {
-  primary: "'Source Sans Pro', sans-serif"
+  primary: "'proxima-nova',sans-serif"
 });
 
 theme.screen.components.list.listStylePosition = "outside";

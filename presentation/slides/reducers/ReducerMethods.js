@@ -20,8 +20,8 @@ export default class extends React.Component {
                    ranges={[
                        {loc: [0, 0], title: "Typing Reducer Methods"},
                        {loc: [0, 5]},
-                       {loc: [8, 12]},
-                       {loc: [15, 23]}
+                       {loc: [6, 10]},
+                       {loc: [11, 18]}
                    ]}/>
     );
   }

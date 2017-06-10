@@ -9,9 +9,10 @@ export default connect(
 
 
 interface MyComponentProps {
-    requestData: (id: number) => MyAction;
+    requestData: (id: number) => MyAction1;
 }
 
+
 interface MyComponentProps {
-    requestData: typeof requestData
+    requestData: typeof requestData;
 }

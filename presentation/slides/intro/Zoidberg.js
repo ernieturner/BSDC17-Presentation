@@ -15,10 +15,8 @@ import {
 export default class extends React.Component {
   render() {
     return (
-      <div style={{textAlign: "center"}}>
+      <div style={{textAlign: "center", paddingTop: '55px'}}>
         <Image src={images.zoidberg} />
-        <br/>
-        <Image src={images.ts} />
       </div>
     );
   }

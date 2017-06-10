@@ -20,11 +20,11 @@ export default class extends React.Component {
                    ranges={[
                        {loc: [0, 2]},
                        {loc: [3, 13], note: <span>"PropTypes"</span>},
-                       {loc: [5, 7], note: <span>Primatives</span>},
-                       {loc: [7, 8], note: <span>Arrays</span>},
-                       {loc: [8, 9], note: <span>Functions</span>},
-                       {loc: [9, 13], note: <span>Sub-objects</span>},
-                       {loc: [16, 20], note: <span style={{color: "#ff5c57"}}>Supplied parameters do not match any signature of call target</span>}
+                       {loc: [4, 6], note: <span>Primatives</span>},
+                       {loc: [6, 7], note: <span>Arrays</span>},
+                       {loc: [7, 8], note: <span>Functions</span>},
+                       {loc: [8, 12], note: <span>Sub-objects</span>},
+                       {loc: [14, 20], note: <span style={{color: "#ff5c57"}}>Supplied parameters do not match any signature of call target</span>}
                    ]}/>
     );
   }
